@@ -14,9 +14,9 @@
 	</div>
 	<div>
 		<form action="#" method="post">
-			<a>nombre</a> <input type="text" maxlength="50"> 
-			<a>apellido</a> <input type="text"> 
-			<a>edad</a> <input type="number">
+			<a>nombre </a> <input type="text" maxlength="50"> 
+			<a>apellido</a> <input type="text" maxlength="50"> 
+			<a>edad</a> <input type="number" maxlength="3">
 			<a>rut</a> <input type="text" maxlength="12"> 
 			<a>email</a> <input type="email">
 			<input type="submit" placeholder="Enviar">
