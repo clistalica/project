@@ -39,8 +39,11 @@ public class Contacto {
 		this.rut = rut;
 		this.email = email;
 	}
-
 	
+	public Contacto() {
+		super();
+	}
+
 	public String getName() {
 		return name;
 	}
