@@ -34,6 +34,10 @@ public class MainController {
 		return "index";
 	}
 	
+	@GetMapping("formulario")
+	public String formularioRedirect () {
+		return "formulario";
+	}
 	@PostMapping("ingresar")
 	public String agregarContacto(@Valid @ModelAttribute("contacto") Contacto co,BindingResult br,Model model) {
 		if (br.hasErrors()) {
